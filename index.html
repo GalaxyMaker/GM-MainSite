@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AGE</title>
+  	<style>
+		body {
+			background-color: #0072C6;
+		}
+		.dotline {
+			border-bottom: 1px solid black;
+		}
+		.dotline2 {
+			border-bottom: 2px solid black;
+		}
+		.rainbow-text {
+		  font-size: 2em;
+		  font-weight: bold;
+		  background: -webkit-linear-gradient(left, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff);
+		  -webkit-background-clip: text;
+		  background-clip: text;
+		  -webkit-text-fill-color: transparent;
+		  transition: background 1s ease-in-out;
+		  animation: rainbow-animation 6s linear infinite;
+		}
+
+		@keyframes rainbow-animation {
+  		0% {
+  		  background-position: 0% 50%;
+  		}
+  		50% {
+  		  background-position: 100% 50%;
+  		}
+  		100% {
+    		background-position: 0% 50%;
+		  }
+		}
+		.notice {
+			 color: white;
+		}
+
+
+	</style>
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>   
+	<br><br>
+	<a href="index.html"><img src="homepage_logo.png" style="top: 100px; width: 10%; height: 10%; left: 50%; display: block; margin: 0 auto; box-shadow: 10px;"></a>
+	<br><a href="TeamInformation.html"><img src="TI.png" style="top: 100px; width: 10%; height: 10%; left: 10%;"></a>
+	<a href="chatbot.html"><img src="CB.png" style="top: 100px; width: 10%; height: 10%; left: 20%;"></a>
+	<a href="list.html"><img src="CL.png" style="top: 100px; width: 10%; height: 10%; left: 30%;"></a>
+	<a href="calculator.html"><img src="SC.png" style="top: 100px; width: 10%; height: 10%; left: 40%;"></a>
+	<a href="CountDown.html"><img src="CD.png" style="top: 100px; width: 10%; height: 10%; left: 50%;"></a>
+	<a href="CountUp.html"><img src="CU.png" style="top: 100px; width: 10%; height: 10%; left: 60%;"></a>
+	<img src="DC.png" style="top: 100px; width: 10%; height: 10%; left: 70%;" onclick="alert('This is the content that is being developed.')">
+	<a href="CodingTask.html">CodingTask</a>
+	<!-- '<a href="DigitalClock.html"><img src="DC.png" style="top: 100px; width: 10%; height: 10%; left: 70%;"></a>' -->
+	
+	<br><br><br><br>
+	<h2 class="rainbow-text dotline2"> NoticeList</h2>
+	<div class="notice">
+	<p class="dotline"><b>Processing&Planning</b></p>
+	<p>Processing</p>
+	<ul>
+		<li>TI</li>
+		<li>CU&CD</li>
+		<li>DC</li>
+	</ul>
+	<p>Planning</p>
+	<ul>
+		<li>GC(GameCategory)<br>input "게임" in "CB"</li>
+	</ul>
+	<br>
+	<p class="dotline2">Thank you!</p>
+	<br>
+	<p class="dotline"><b>Completed&Updating</b></p>
+	<p>Completed</p>
+	<ul>
+		<li>CB</li>
+		<li>CL</li>
+	</ul>
+	<p>Updating</p>
+	<ol style="list-style-type: upper-alpha">
+		<li>CB<br>
+			<ol style="direction: rtl;">
+				<li>Completed(~ 17.04.2023)</li>
+				<li>Added Usermsg"게임"(18.04.2023)</li>
+				<li>Added TI Page(19.04.2023)</li>
+			</ol>
+		</li>
+	</ol>
+	<br>
+	<p class="dotline2">Thank you!</p>
+	<br>
+		<p class="dotline"><b>EachNaming</b></p>
+	<p><b>TI</b> - TeamInformations</p>
+	<p><b>CB</b> - ChatBot</p>
+	<p><b>CL</b> - ContentsList</p>
+	<p><b>SC</b> - SimpleCalculator</p>
+	<p><b>CU</b> - CountUp</p>
+	<p><b>CD</b> - CountDown</p>
+	<p><b>DC</b> - DigitalClock</p>
+		<br>
+	<p class="dotline2">Thank you!</p>
+	</div>
+</body>
+</html>
+ 
